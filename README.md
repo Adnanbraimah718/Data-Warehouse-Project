@@ -50,19 +50,16 @@ start_time, hour, day, week, month, year, weekday
 ## **Files**
 -----------------------------------------------------------------------------------------------------------------------------------
 
-six files included:
+files included:
 
-test.ipynb displays the first few rows of each table to let you check your database.
 
 create_tables.py drops and creates your tables. You run this file to reset your tables before each time you run your ETL scripts.
-
-etl.ipynb reads and processes a single file from song_data and log_data and loads the data into your tables. 
 
 etl.py reads and processes files from song_data and log_data and loads them into your tables. 
 
 sql_queries.py contains all your sql queries, and is imported into the last three files above.
 
-data contains JSON format song data and log data. The song data contains data about a song and its artist. The log data is data generated from an event simulator.
+The song data contains data about a song and its artist. The log data is data generated from an event simulator.
 
 
 ## **Installation**
